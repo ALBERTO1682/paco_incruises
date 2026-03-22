@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>PacoInCruises </title>
+  <meta name="description"
+    content="Soy Paco, tu asesor personal de cruceros con inCruises. Te ayudo a encontrar el crucero perfecto con los mejores descuentos. ¡Contáctame!">
+  <meta name="keywords"
+    content="PacoInCruises, cruceros, viajes, asesor cruceros, inCruises, descuentos cruceros, vacaciones">
+  <meta name="author" content="PacoInCruises">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PacoInCruises | Tu Asesor Personal de Cruceros">
+  <meta property="og:description"
+    content="Te ayudo a encontrar el crucero perfecto con los mejores descuentos. ¡Contáctame!">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero_cruise.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <div class="logo-icon">P</div>
+        <span>Paco<span class="highlight">InCruises</span></span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#beneficios">Beneficios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#como-funciona">Cómo Funciona</a>
+        <a href="#contacto">Contacto</a>
+        <a href="https://wa.me/34600000000" target="_blank" class="nav-cta">💬 Escríbeme</a>
+      </div>
+
+      <button class="hamburger" id="hamburger"
+        onclick="document.getElementById('navLinks').classList.toggle('active'); this.classList.toggle('active');"
+        aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero_cruise.png" alt="Crucero de lujo navegando en aguas cristalinas al atardecer">
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <span ></span>
+      <h1>
+        Viajes en Crucero, vacaciones de ensueño
+      </h1>
+      <p>Te ayudo a encontrar el crucero perfecto o alojamientos idílicos para ti y tu familia, con descuentos exclusivos a través de inCruises.
+        Asesoramiento personalizado y sin complicaciones.</p>
+
+      <div class="hero-buttons">
+        <a href="https://wa.me/34600000000" target="_blank" class="btn-primary">
+          💬 Contáctame por WhatsApp
+        </a>
+        <a href="#como-funciona" class="btn-outline">
+          ▶ Cómo Funciona
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-number">🚢</div>
+          <div class="stat-label">Cruceros</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">+-70%</div>
+          <div class="stat-label">Ahorro</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">🌍</div>
+          <div class="stat-label">Todo el Mundo</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">🤝</div>
+          <div class="stat-label">Trato Personal</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BENEFITS SECTION ===== -->
+  <section class="section benefits" id="beneficios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Ventajas</span>
+        <h2 class="section-title">¿Por Qué Reservar <span class="accent">Conmigo</span>?</h2>
+        <p class="section-subtitle">Te ofrezco un servicio cercano y personalizado para que disfrutes de las mejores
+          vacaciones en crucero sin complicaciones.</p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <span>💰</span>
+          </div>
+          <h3>Ahorra hasta un 70%</h3>
+          <p>Gracias a inCruises, accedes a precios exclusivos en cruceros de las mejores navieras del mundo y de los mejores alojamientos.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <span>🚢</span>
+          </div>
+          <h3>Las Mejores Navieras</h3>
+          <p>Royal Caribbean, MSC, Norwegian, Celebrity Cruises y muchas más. Tú eliges, yo te busco la mejor oferta.
+          </p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <span>🌍</span>
+          </div>
+          <h3>Destinos por Todo el Mundo</h3>
+          <p>Caribe, Mediterráneo, Alaska, Asia, Fiordos… te asesoro para encontrar el destino ideal para ti.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <span>🤝</span>
+          </div>
+          <h3>Asesoramiento Personal</h3>
+          <p>Te guío en todo el proceso: desde hacerte miembro de incruises y elegir el crucero hasta resolver cualquier duda. Siempre a tu lado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Galería</span>
+        <h2 class="section-title">Mis <span class="gold">Viajes</span></h2>
+        <p class="section-subtitle">Algunas fotos de mis experiencias en cruceros. ¡Próximamente podrías estar tú aquí!
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Foto 1 -->
+        <div class="gallery-item">
+          <!-- REEMPLAZA: Pon tu imagen en images/galeria_1.jpg y descomenta la línea de abajo -->
+          <img src="images/crucero1.png" alt="Foto de crucero 1">
+          <div class="gallery-placeholder">
+            <span class="placeholder-icon">📸</span>
+            <span>Tu foto aquí</span>
+          </div>
+        </div>
+
+        <!-- Foto 2 -->
+        <div class="gallery-item">
+          <img src="images/crucero3.png" alt="Foto de crucero 1">
+          <div class="gallery-placeholder">
+            <span class="placeholder-icon">📸</span>
+            <span>Tu foto aquí</span>
+          </div>
+        </div>
+
+        <!-- Foto 3 -->
+        <div class="gallery-item">
+          <img src="images/resort1.png" alt="Foto de crucero 1">
+          <div class="gallery-placeholder">
+            <span class="placeholder-icon">📸</span>
+            <span>Tu foto aquí</span>
+          </div>
+        </div>
+
+        <!-- Foto 4 -->
+        <div class="gallery-item">
+          <img src="images/resort2.png" alt="Foto de crucero 1">
+          <div class="gallery-placeholder">
+            <span class="placeholder-icon">📸</span>
+            <span>Tu foto aquí</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS SECTION ===== -->
+  <section class="section" id="como-funciona">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Fácil y Rápido</span>
+        <h2 class="section-title">¿Cómo <span class="accent">Funciona</span>?</h2>
+        <p class="section-subtitle">En solo 3 pasos tendrás tu crucero soñado reservado y listo para disfrutar.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3>Contáctame</h3>
+          <p>Escríbeme por WhatsApp o email y cuéntame qué tipo de crucero te gustaría. Sin compromiso.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3>Te Asesoro</h3>
+          <p>Busco las mejores opciones y descuentos para ti a través de inCruises y te presento las ofertas.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3>¡A Navegar!</h3>
+          <p>Reservamos juntos tu crucero ideal y solo te queda hacer las maletas. ¡Buen viaje!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA + CONTACT SECTION ===== -->
+  <section class="cta-section" id="contacto">
+    <div class="container">
+      <h2>¿Listo para tu Próxima Experiencia?</h2>
+      <p>Cuéntame qué destino te gustaría y te busco la mejor oferta. ¡Sin compromiso!</p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/34722317837" target="_blank" class="btn-primary">
+          💬 WhatsApp
+        </a>
+        <a href="mailto:pacoincruises72@gmail.com" class="btn-outline btn-outline-light">
+          📧 Email
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-simple">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="logo-text">Paco<span class="highlight">InCruises</span></div>
+          <p>Tu asesor personal de cruceros. Te ayudo a encontrar las mejores ofertas a través de inCruises para que
+            viajes más por menos.</p>
+          <div class="social-links">
+            <a href="https://wa.me/34722317837" target="_blank" class="social-link whatsapp" aria-label="WhatsApp"
+              title="WhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/pacoincruises" target="_blank" class="social-link instagram" aria-label="Instagram"
+              title="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/pacoincruises" target="_blank" class="social-link facebook" aria-label="Facebook"
+              title="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+            <a href="mailto:pacoincruises72@gmail.com" class="social-link email" aria-label="Email" title="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-column">
+          <h4>Contacto</h4>
+          <ul class="footer-contact">
+            <li>
+              <span class="icon">📧</span>
+              <a href="mailto:pacoincruises72@gmail.com">pacoincruises72@gmail.com</a>
+            </li>
+            <li>
+              <span class="icon">📱</span>
+              <a href="tel:+34722317837">+34 722 317 837</a>
+            </li>
+            <li>
+              <span class="icon">📍</span>
+              <span style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">España</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#como-funciona">Cómo Funciona</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="https://www.incruises.com" target="_blank">inCruises Oficial</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 PacoInCruises — Asesor independiente asociado a <a href="https://www.incruises.com"
+            target="_blank">inCruises</a></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
