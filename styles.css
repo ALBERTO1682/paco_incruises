@@ -312,7 +312,30 @@ ul {
   transform: translateY(-3px);
   box-shadow: 0 12px 35px rgba(212, 168, 83, 0.4);
 }
+.section-header {
+  display: block;
+}
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* tamaño máximo en PC */
+  aspect-ratio: 16 / 9; /* mantiene proporción */
+}
+
+.video-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 12px; /* opcional, bordes bonitos */
+}
 .btn-outline {
   display: inline-flex;
   align-items: center;
